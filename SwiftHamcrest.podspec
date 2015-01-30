@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "7.1"
   s.osx.deployment_target = "10.9"
+  s.framework             = "XCTest"
   s.source = { :git => "https://github.com/fl3xman/SwiftHamcrest.git", :tag => s.version }
   s.source_files = "Hamcrest/*.{swift}"
   s.requires_arc = true
